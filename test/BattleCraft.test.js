@@ -17,7 +17,7 @@ contract('BattleCraft', function([ _, wallet, wallet2 ]) {
   }); 
 
   describe('Contract has instantiated correctly', function() {
-    it('asserts all constructor params', async function() {
+    it('Asserts all constructor params', async function() {
 
       const symbol = await this.token.symbol();
       symbol.should.be.equal( "CHRG" );
